@@ -99,8 +99,6 @@ export async function getStaticProps() {
     return { ...e, isShow: true, vegetable: false, fruit: false, time: '' };
   });
 
-
-
   return {
     props: {
       data: sentData,
